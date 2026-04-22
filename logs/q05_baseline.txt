@@ -1,0 +1,15 @@
+﻿[OK] .env verkar ok
+
+=== BASELINE (utan RAG) ===
+Jag õr inte sõker pÕ exakt vilket CIDR som anvõnds f÷r static IP i en labb, eftersom det kan variera beroende pÕ den specifika milj÷n och konfigurationen. Men vanligtvis anvõnds CIDR-noteringen /24 eller /16 f÷r att definiera ett nõtverk med static IP-adresser.
+
+Ett exempel pÕ en CIDR-notering f÷r ett nõtverk med static IP-adresser kan vara:
+
+* 192.168.1.0/24
+* 10.0.0.0/16
+
+Dessa CIDR-noteringar anger att alla IP-adresser inom det angivna intervall som b÷rjar med 192.168.1.0 eller 10.0.0.0 ska tillh÷ra det specifika nõtverket.
+
+Om du har mer information om din specifika labb eller konfiguration, kan jag f÷rs÷ka ge en mer precis svar.
+
+[TIME] Tid: 0.86s

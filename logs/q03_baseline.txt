@@ -1,0 +1,15 @@
+﻿[OK] .env verkar ok
+
+=== BASELINE (utan RAG) ===
+Jag õr inte helt sõker pÕ vad du menar med "installationsscriptet", men jag antar att du syftar pÕ ett skript som ska k÷ras i vCenter Server f÷r att utf÷ra nÕgon form av konfiguration eller installation.
+
+F÷r att kunna k÷ra ett skript i vCenter Server, mÕste du f÷rst:
+
+1. Se till att du har rõtt roller och beh÷righeter i vCenter Server. Du mÕste ha minst lõsarrollen "Administrator" eller "Operator" f÷r att kunna k÷ra skript.
+2. Ladda upp skriptet till vCenter Server. Detta kan du g÷ra genom att gÕ till "Filer" > "Ladda upp fil" och võlja skriptfilen.
+3. Skapa en ny "PowerShell-Session" i vCenter Server. Du kan g÷ra detta genom att gÕ till "Verktyg" > "PowerShell" och klicka pÕ "Skapa ny session".
+4. I PowerShell-sessionen mÕste du sedan importera skriptet och k÷ra det. Detta kan du g÷ra genom att anvõnda kommandot "Invoke-Command" eller "RunScript".
+
+Om du har nÕgra mer specifika frÕgor eller beh÷ver mer information, var võnlig och frÕga!
+
+[TIME] Tid: 1.04s

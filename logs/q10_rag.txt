@@ -1,0 +1,4 @@
+﻿[OK] .env verkar ok
+
+=== RAG (med dokument) ===
+Jag hittade inget i dokumenten som matchar frÕgan (keyword-s÷kning).

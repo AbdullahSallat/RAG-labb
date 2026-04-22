@@ -1,0 +1,19 @@
+﻿[OK] .env verkar ok
+
+=== BASELINE (utan RAG) ===
+F÷r att bestõmma vilken gateway som ska anvõndas i nõtet 172.16.248.0/22 beh÷ver jag veta vilken mask som õr tilldelad till varje enhet i nõtverket. 
+
+Eftersom du inte har gett nÕgon information om masker eller vilka enheter som õr anslutna till nõtverket, kan jag inte ge en exakt svar. Men jag kan ge dig en allmõn princip.
+
+I ett nõtverk med en /22-mask kan du dela upp nõtverket i fyra undernõt med /24-masker. Dessa undernõt kan se ut som f÷ljande:
+
+- 172.16.248.0/24
+- 172.16.249.0/24
+- 172.16.250.0/24
+- 172.16.251.0/24
+
+Varje undernõt har en egen gateway. Om du vill veta vilken gateway som ska anvõndas f÷r ett visst undernõt, mÕste du veta vilken mask som õr tilldelad till varje enhet i nõtverket.
+
+Om du kan ge mig mer information om ditt nõtverk, kan jag hjõlpa dig bõttre.
+
+[TIME] Tid: 0.97s

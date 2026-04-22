@@ -1,0 +1,8 @@
+﻿[OK] .env verkar ok
+
+=== RAG (med dokument) ===
+F÷rsta fels÷kningsteget om DNS inte fungerar õr att testa nslookup och kontrollera DNS-serverns IP.
+
+Kõllor: [network.txt#chunk0], [azure_arc.txt#chunk0]
+
+[TIME] Tid: 0.63s

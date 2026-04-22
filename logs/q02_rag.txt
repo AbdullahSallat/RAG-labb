@@ -1,0 +1,8 @@
+﻿[OK] .env verkar ok
+
+=== RAG (med dokument) ===
+DNS-servrarna som ska anvõndas enligt dokumenten õr 172.16.250.1.
+
+Kõllor: [azure_arc.txt#chunk0]
+
+[TIME] Tid: 0.58s

@@ -1,0 +1,15 @@
+Vilken gateway ska användas i nätet 172.16.248.0/22?
+Vilka DNS-servrar ska användas enligt dokumenten?
+Vad måste göras i vCenter innan installationsscriptet körs?
+Vilken roll/behörighet krävs för Azure login?
+Vilket nät (CIDR) används för static IP i labben?
+Vilket är första felsökningssteget om klienten inte når internet?
+Vilket är första felsökningssteget om DNS inte fungerar?
+Vilka två saker ska man kontrollera först vid nätverksproblem?
+
+# NEGATIVA TEST (ska inte finnas i docs)
+Vilken port använder RDP som standard?
+Hur aktiverar man BitLocker via GPO?
+Vad är kommandot för att lista Docker containers?
+Vilken port använder SSH som standard?
+Hur gör man en VLAN trunk på Cisco?

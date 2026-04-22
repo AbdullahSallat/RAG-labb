@@ -1,0 +1,8 @@
+﻿[OK] .env verkar ok
+
+=== RAG (med dokument) ===
+Kontrollera gateway och DNS f÷rst.
+
+Kõllor: [network.txt#chunk0]
+
+[TIME] Tid: 0.59s

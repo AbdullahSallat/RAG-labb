@@ -1,0 +1,8 @@
+﻿[OK] .env verkar ok
+
+=== RAG (med dokument) ===
+Innan installationsscriptet k÷rs mÕste du skapa en Template folder i vCenter.
+
+Kõllor: [azure_arc.txt#chunk0]
+
+[TIME] Tid: 0.62s

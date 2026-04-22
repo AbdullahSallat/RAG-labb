@@ -1,0 +1,51 @@
+﻿[OK] .env verkar ok
+
+=== BASELINE (utan RAG) ===
+En VLAN trunk, õven kõnd som en VLAN trunking, õr en teknik som anvõnds f÷r att ÷verf÷ra flera VLAN-trafik ÷ver en enda fysisk trÕd eller ÷ver en virtuell trÕd. Hõr õr stegen f÷r att konfigurera en VLAN trunk pÕ en Cisco-switch:
+
+**F÷rutsõttningar:**
+
+- Du har en Cisco-switch som st÷der VLAN-trunking (t.ex. Cisco 3560 eller h÷gre).
+- Du har en fysisk trÕd eller en virtuell trÕd som du vill anvõnda f÷r VLAN-trunking.
+
+**Steg 1: Konfigurera VLAN-trunking**
+
+- Logga in pÕ din Cisco-switch via SSH eller via konsolen.
+- GÕ till globala konfigurationslõget genom att skriva in kommandot `enable` och sedan `configure terminal`.
+- Skriv in kommandot `vlan trunk allowed vlan` f÷r att visa vilka VLAN:er som õr tillÕtna att trunka.
+
+**Steg 2: TillÕt VLAN:er att trunka**
+
+- Skriv in kommandot `vlan trunk allowed vlan add <VLANnummer>` f÷r att tillÕta en specifik VLAN att trunka. Du kan lõgga till flera VLAN:er genom att skriva in kommandot flera gÕnger.
+- Exempel: `vlan trunk allowed vlan add 10` tillÕter VLAN 10 att trunka.
+
+**Steg 3: Konfigurera trunk-porten**
+
+- Skriv in kommandot `interface <portnummer>` f÷r att gÕ till den port som du vill anvõnda f÷r VLAN-trunking.
+- Skriv in kommandot `switchport mode trunk` f÷r att konfigurera porten som en trunk-port.
+- Skriv in kommandot `switchport trunk allowed vlan` f÷r att ange vilka VLAN:er som õr tillÕtna att trunka pÕ den hõr porten.
+
+**Steg 4: Spara konfigurationen**
+
+- Skriv in kommandot `end` f÷r att gÕ tillbaka till globala konfigurationslõget.
+- Skriv in kommandot `write memory` f÷r att spara konfigurationen pÕ switchen.
+
+**Exempel:**
+
+Hõr õr ett exempel pÕ hur du kan konfigurera en VLAN trunk pÕ en Cisco-switch:
+
+```bash
+enable
+configure terminal
+vlan trunk allowed vlan add 10
+vlan trunk allowed vlan add 20
+interface fa0/1
+switchport mode trunk
+switchport trunk allowed vlan 10,20
+end
+write memory
+```
+
+Detta õr en grundlõggande guide f÷r att konfigurera en VLAN trunk pÕ en Cisco-switch. Om du har fler frÕgor eller beh÷ver mer information, kan du frÕga!
+
+[TIME] Tid: 1.51s

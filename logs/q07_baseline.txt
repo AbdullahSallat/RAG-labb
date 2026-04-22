@@ -1,0 +1,12 @@
+﻿[OK] .env verkar ok
+
+=== BASELINE (utan RAG) ===
+Om DNS inte fungerar õr det f÷rsta fels÷kningssteget att kontrollera om internetuppkopplingen õr aktiv och fungerar korrekt. Detta kan du g÷ra genom att:
+
+1. Kontrollera att du õr ansluten till nõtverket genom att kontrollera din internetuppkoppling.
+2. Kontrollera att din router och modem õr pÕslagna och fungerar korrekt.
+3. Kontrollera att din internetleverant÷r inte har nÕgra problem eller underhÕllsarbete som kan pÕverka din internetuppkoppling.
+
+Om du har kontrollerat dessa saker och fortfarande har problem med DNS kan du fortsõtta med nõsta steg, som att kontrollera DNS-servern och se om den õr tillgõnglig och fungerar korrekt.
+
+[TIME] Tid: 0.94s

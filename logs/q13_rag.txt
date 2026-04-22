@@ -1,0 +1,6 @@
+﻿[OK] .env verkar ok
+
+=== RAG (med dokument) ===
+Jag hittar inte det i dokumenten.
+
+[TIME] Tid: 0.66s

@@ -1,0 +1,8 @@
+﻿[OK] .env verkar ok
+
+=== RAG (med dokument) ===
+Global Admin.
+
+Kõllor: [azure_arc.txt#chunk0]
+
+[TIME] Tid: 0.56s

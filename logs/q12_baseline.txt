@@ -1,0 +1,6 @@
+﻿[OK] .env verkar ok
+
+=== BASELINE (utan RAG) ===
+SSH (Secure Shell) anvõnder standardporten 22. Detta õr den port som vanligtvis anvõnds f÷r att ansluta till en SSH-server. Om du vill ansluta till en SSH-server mÕste du vanligtvis ange port 22 i din SSH-klient, t.ex. PuTTY eller OpenSSH.
+
+[TIME] Tid: 0.65s

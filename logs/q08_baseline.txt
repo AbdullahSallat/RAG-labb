@@ -1,0 +1,11 @@
+﻿[OK] .env verkar ok
+
+=== BASELINE (utan RAG) ===
+Vid nõtverksproblem õr det vanligtvis bõst att b÷rja med att kontrollera tvÕ saker:
+
+1. **Kabelanslutningar och anslutningar**: Kontrollera att alla kablar õr ordentligt anslutna till rõtt portar och enheter. Det õr lõtt att gl÷mma en kabel eller att en kabel õr loss, vilket kan orsaka problem i nõtverket.
+2. **Nõtverkskabeln och router**: Kontrollera att nõtverkskabeln õr korrekt ansluten till router och att router õr pÕslagen och fungerar korrekt. Det õr ocksÕ viktigt att kontrollera att router har rõtt IP-adress och att DNS-servern õr korrekt konfigurerad.
+
+Om du õr osõker om hur du ska g÷ra eller om problemet fortfarande inte õr l÷st efter att ha kontrollerat dessa saker, kan jag hjõlpa dig att fortsõtta att diagnostisera problemet.
+
+[TIME] Tid: 0.96s
