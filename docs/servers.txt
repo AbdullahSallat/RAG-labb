@@ -1,0 +1,23 @@
+Server Infrastructure - Lab Environment:
+
+Servers:
+- Web Server: 172.16.248.10 (Ubuntu 22.04)
+- Database Server: 172.16.248.20 (Windows Server 2022)
+- Backup Server: 172.16.248.30 (Ubuntu 22.04)
+- Domain Controller: 172.16.248.5 (Windows Server 2022)
+
+Network:
+- Gateway: 172.16.250.1
+- DNS: 172.16.250.1
+- Subnet: 172.16.248.0/22
+- SSH port: 2222 (changed from default on all Linux servers)
+- RDP port: 3389 (Windows servers only)
+
+Firewall rules:
+- Only allow inbound traffic from 172.16.248.0/22
+- Block all external access to port 22
+- Allow HTTPS (443) from all sources
+
+Maintenance:
+- Backups run every night at 02:00
+- Patching window: Sundays 03:00-05:00

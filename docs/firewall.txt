@@ -1,0 +1,23 @@
+Firewall Configuration - Lab Environment:
+
+Default policy:
+- Inbound: DENY all unless explicitly allowed
+- Outbound: ALLOW all
+
+Allowed inbound rules:
+- Port 443 (HTTPS): ALLOW from any source
+- Port 2222 (SSH): ALLOW from 172.16.248.0/22 only
+- Port 3389 (RDP): ALLOW from 172.16.248.0/22 only
+- Port 53 (DNS): ALLOW from 172.16.248.0/22 only
+- Port 80 (HTTP): REDIRECT to 443
+
+Blocked:
+- Port 22 (default SSH): BLOCK - changed to 2222
+- Port 23 (Telnet): BLOCK always
+- Port 3306 (MySQL): BLOCK external access
+
+Troubleshooting firewall:
+- If client cannot reach internet: check NAT rule and default route
+- If SSH fails: confirm source IP is in 172.16.248.0/22 range
+- If RDP fails: check Windows Firewall in addition to network firewall
+- Log file location: /var/log/firewall.log
