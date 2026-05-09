@@ -1,6 +1,0 @@
-﻿[OK] .env verkar ok
-
-=== BASELINE (utan RAG) ===
-RDP (Remote Desktop Protocol) anvõnder standardporten 3389. Detta innebõr att om du vill ansluta till en dator med RDP mÕste port 3389 ÷ppnas i brandvõggen eller router f÷r att anslutningen ska fungera.
-
-[TIME] Tid: 0.66s

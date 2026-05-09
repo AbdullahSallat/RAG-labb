@@ -1,0 +1,6 @@
+Azure Arc Resource Bridge - important steps:
+1) Create a Template folder in vCenter before running the script.
+2) Log in to Azure with an account that is Global Admin.
+3) Network: 172.16.248.0/22
+Gateway: 172.16.250.1
+DNS: 172.16.250.1

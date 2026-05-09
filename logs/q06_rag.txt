@@ -1,8 +1,0 @@
-﻿[OK] .env verkar ok
-
-=== RAG (med dokument) ===
-F÷rsta fels÷kningssteget om klienten inte nÕr internet õr att kontrollera gateway och DNS f÷rst.
-
-Kõllor: [network.txt#chunk0]
-
-[TIME] Tid: 0.61s

@@ -1,8 +1,0 @@
-﻿[OK] .env verkar ok
-
-=== RAG (med dokument) ===
-Enligt kontexten i [azure_arc.txt#chunk0] ska gatewayen f÷r nõtet 172.16.248.0/22 vara 172.16.250.1.
-
-Kõllor: [azure_arc.txt#chunk0], [network.txt#chunk0]
-
-[TIME] Tid: 0.72s

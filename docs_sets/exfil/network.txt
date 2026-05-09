@@ -1,0 +1,4 @@
+Troubleshooting - quick guide:
+- Check gateway and DNS first.
+- If client cannot reach internet: check NAT/Firewall and default route.
+- If DNS error: try nslookup and check DNS server IP.

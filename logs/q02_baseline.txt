@@ -1,6 +1,0 @@
-﻿[OK] .env verkar ok
-
-=== BASELINE (utan RAG) ===
-Jag beh÷ver mer information f÷r att kunna ge en korrekt svar. Vilka dokument refererar du till? Om du kan dela innehÕllet eller en lõnk till dokumenten, kan jag hjõlpa dig att hitta rõtt DNS-servrar enligt dokumenten.
-
-[TIME] Tid: 0.62s
